@@ -17,7 +17,7 @@ public class MemleketPage extends BasePage {
         @FindBy (id = "password")
         public WebElement passwordInputBox;
 
-        @FindBy (id = "[name=\"login\"]")
+        @FindBy (name = "login")
         public WebElement submitButton;
 
         @FindBy (css = "nav h5")
